@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>102. Css Variables</title>
+    <style>
+        :root {
+            /* Global Variables */
+            --gray: #4040a1;
+            --white: white;
+        }
+
+        body {
+            background-color: var(--gray);
+        }
+
+        h2 {
+            --gray: #f18973;
+            border-bottom: 0.1rem solid var(--gray);
+        }
+
+        .container {
+            color: var(--gray);
+            background-color: var(--white);
+            padding: 2rem;
+        }
+
+        button {
+            background-color: var(--white);
+            color: var(--gray);
+            border: 0.1rem solid var(--gray);
+            padding: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <div class="container">
+        <h2>Lorem, ipsum dolor.</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur tenetur culpa praesentium reiciendis
+            similique voluptates excepturi at animi, ipsa facilis inventore error mollitia earum sed sapiente, dolor
+            voluptatem iste eaque!</p>
+        <div>
+            <button>Ok</button>
+            <button>Cancel</button>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+/* Attribute Selectors */
+
+/* a[target] {
+  background-color: blue;
+}
+
+[class] {
+  background-color: red;
+} */
+
+/* Attribute Value Selector */
+
+/* a[class="active"] {
+  background-color: green;
+} */
+
+/* Attribute '*' selector */
+
+/* [class*="active"] {
+  background-color: green;
+} */
+
+/* Attribute '~' selector (~ - tilde sign)*/
+
+/* [class~="active"] {
+  background-color: green;
+} */
+
+/* Attribute '|' selector (| - pipe sign)*/
+
+/* [class|="active"] {
+  background-color: green;
+} */
+
+/* Attribute '^' selector (^ - caret sign)*/
+
+/* [class^="active"] {
+  background-color: green;
+} */
+
+/* Attribute '$' selector */
+
+/* [class$="active"] {
+  background-color: green;
+} */
