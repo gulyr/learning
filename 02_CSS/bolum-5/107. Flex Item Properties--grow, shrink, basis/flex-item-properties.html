@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>107. Flex Item Properties: grow, shrink, basis</title>
+    <style>
+        /* -- flex-grow --
+        -- flex-basis --
+        -- flex-shrink --
+        -- flex-order --
+        -- flex -- (shorthand) */
+
+        .container {
+            background-color: #034f84;
+            height: 500px;
+            display: flex;
+        }
+
+        .item {
+            background-color: #f7786b;
+            margin: 20px;
+            padding: 30px;
+            color: white;
+            font-size: 25px;
+            flex: 0 1 200px;
+        }
+
+        .item-1 {
+            /* flex-grow: 2; */
+            flex: 25%;
+            order: 3;
+        }
+
+        .item-2 {
+            /* flex-grow: 1; */
+            flex: 25%;
+            order: 2;
+        }
+
+        .item-3 {
+            /* flex-basis: 200px;
+            flex-shrink: 0; */
+            flex: 50%;
+            order: 1;
+        }
+
+        .item-4 {
+            /* flex-grow: 1; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item item-1">item 1</div>
+        <div class="item item-2">item 2</div>
+        <div class="item item-3">item 3</div>
+        <!-- <div class="item item-4">item 4</div> -->
+    </div>
+</body>
+
+</html>
