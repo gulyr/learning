@@ -1,0 +1,14 @@
+img{
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+}
+p{
+    border: 2px solid red;
+    padding: 5px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}

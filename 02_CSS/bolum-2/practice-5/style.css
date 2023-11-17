@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main-header {
+  background-color: #fc997c;
+  padding: 8px 16px;
+}
+
+.main-header_logo {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.main-nav {
+  display: inline-block;
+  width: calc(100% - 99px);
+  text-align: right;
+}
+
+.main-nav_items {
+  margin: 0;
+  list-style-type: none;
+}
+
+.main-nav_item {
+  display: inline-block;
+  margin: 0px 8px;
+}
+
+.main-nav_item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#showcase {
+  background-color: #2e4c6d;
+  height: 500px;
+  width: 100%;
+  padding: 10px;
+}
+
+#how-it-works {
+  background-color: #fc997c;
+  padding: 10px;
+}

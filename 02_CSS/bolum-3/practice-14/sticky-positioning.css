@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 2000px;
+}
+
+body {
+  margin: 0;
+}
+
+#container {
+  position: relative;
+}
+
+.box {
+  padding: 10px;
+  border: 2px solid #6d5b95;
+  margin-bottom: 10px;
+}
+
+.navbar {
+  background-color: #feb236;
+}
+
+.content {
+  background-color: #d64161;
+}
+
+.footer {
+  background-color: #ff7b25;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.h2-1 {
+  background-color: #d64161;
+}
+
+.h2-2 {
+  background-color: #feb236;
+}

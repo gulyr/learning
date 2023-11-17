@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main-header {
+  background-color: #fc997c;
+}
+
+.main-nav {
+  display: inline-block;
+  width: calc(100% - 74px);
+  text-align: right;
+}
+
+.main-nav_items {
+  margin: 0;
+  list-style-type: none;
+}
+
+.main-nav_item {
+  display: inline-block;
+}
+
+#showcase {
+  background-color: #2e4c6d;
+  height: 500px;
+  width: 100%;
+  padding: 10px;
+}
+
+#how-it-works {
+  background-color: #fc997c;
+  padding: 10px;
+}

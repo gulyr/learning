@@ -1,0 +1,26 @@
+.container{
+    /* inline elementler ucun */
+    /* text-align: center; */
+
+    /* block elementler ucun */
+    /* float: right; */
+
+    background-color: chocolate;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    float: right;
+}
+#box-1{
+    float: left;
+}
+/* .box-4{
+    clear: both;
+} */
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}

@@ -1,0 +1,27 @@
+p::first-line {
+  color: brown;
+  font-weight: bold;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+p.about::first-line {
+  color: green;
+}
+
+p::first-letter {
+  font-size: 48px;
+}
+
+::selection {
+  background-color: black;
+  color: white;
+}
+
+p.about::before {
+  content: "\2648";
+}
+
+p.about::after {
+  content: "\2648";
+}
