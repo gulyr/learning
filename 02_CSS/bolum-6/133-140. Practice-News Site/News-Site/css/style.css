@@ -72,11 +72,11 @@ p {
 }
 
 .btn-dark {
-  background-color: var(--dark-color-color);
+  background-color: var(--dark-color);
 }
 
 .btn-primary {
-  background-color: var(--primary-color-color);
+  background-color: var(--primary-color);
 }
 
 .btn:hover {
@@ -94,8 +94,13 @@ p {
   color: white;
 }
 
+.bg-secondary {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
 .bg-light {
-  background-color: var(--light-color-color);
+  background-color: var(--light-color);
   color: var(--dark-color);
 }
 
@@ -196,6 +201,16 @@ p {
 .card-primary {
   background-color: var(--primary-color);
   padding: 1rem;
+}
+
+.category {
+  display: inline-block;
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  padding: 0.4rem 0.6rem;
+  border-radius: 15px;
+  margin-bottom: 0.5rem;
 }
 
 /* navbar */
