@@ -292,3 +292,11 @@ p {
 #header .header-content p {
   margin-bottom: 1rem;
 }
+
+/* articles */
+
+#main-articles .articles-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
