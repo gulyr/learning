@@ -29,4 +29,7 @@ img {
     border-bottom: 1px dotted #444;
     padding: 1rem;
   }
+  .page-container {
+    grid-template-columns: 1fr;
+  }
 }
