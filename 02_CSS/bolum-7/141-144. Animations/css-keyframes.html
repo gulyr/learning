@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>144. CSS Keyframes</title>
+    <style>
+        body {
+            background-color: #333;
+        }
+
+        .box {
+            background-color: yellow;
+            width: 150px;
+            height: 150px;
+            position: relative;
+            top: 0;
+            left: 0;
+            animation: animation-1 5s forwards ease-in;
+        }
+
+        @keyframes animation-1 {
+            25% {
+                top: 100px;
+                left: 0;
+                background-color: blue;
+            }
+
+            50% {
+                top: 100px;
+                left: 100px;
+                background-color: red;
+            }
+
+            75% {
+                top: 200px;
+                left: 100px;
+                background-color: white;
+            }
+
+            100% {
+                top: 200px;
+                left: 200px;
+                background-color: green;
+            }
+        }
+
+        h1 {
+            color: white;
+            position: relative;
+            animation: text-animation 1s forwards ease-in;
+        }
+
+        @keyframes text-animation {
+            from {
+                left: -300px;
+            }
+
+            to {
+                left: 100px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lorem, ipsum dolor.</h1>
+    <div class="box"></div>
+</body>
+
+</html>
