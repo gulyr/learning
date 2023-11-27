@@ -5,10 +5,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>145. Practice - Animation</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #fff;
+        }
+
+        #page-1 {
+            background-color: #313552;
+        }
+
+        #page-2 {
+            background-color: #B8405e;
+        }
+
+        #page-3 {
+            background-color: #2eb086;
+        }
+
+        .page {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .page h1 {
+            font-size: 5rem;
+            margin: 2rem;
+        }
+
+        .page p {
+            font-size: 1.5rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background-color: #f4f4f4;
+            color: #333;
+            text-decoration: none;
+            border: none;
+            font-size: 1.2rem;
+            transition: all 0.3s ease-in;
+        }
+
+        .btn:hover {
+            background-color: #333;
+            color: #fff;
+        }
+
+        #page-1 h1 {
+            transform: translateY(-800px);
+            animation: h1-animation 1s forwards ease-in;
+        }
+
+        #page-1 p {
+            transform: translateX(-2000px);
+            animation: p-animation 1s forwards 1s ease-in;
+        }
+
+        @keyframes h1-animation {
+            to {
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes p-animation {
+            to {
+                transform: translateX(0);
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <section class="page-1">
+    <section id="page-1" class="page">
         <h1>Page 1</h1>
         <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam impedit repudiandae, eum tempore quod
@@ -19,7 +99,7 @@
             <a href="#page-2" class="btn">Next Page</a>
         </div>
     </section>
-    <section class="page-2">
+    <section id="page-2" class="page">
         <h1>Page 2</h1>
         <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam impedit repudiandae, eum tempore quod
@@ -31,7 +111,7 @@
             <a href="#page-3" class="btn">Next Page</a>
         </div>
     </section>
-    <section class="page-3">
+    <section id="page-3" class="page">
         <h1>Page 3</h1>
         <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam impedit repudiandae, eum tempore quod
