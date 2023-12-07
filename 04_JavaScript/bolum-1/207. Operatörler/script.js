@@ -7,10 +7,18 @@
 // Ternary Operators
 // Type Operators
 
-let sum, subtraction, multiplication, division, mod, increment, decrement
+let sum,
+  subtraction,
+  multiplication,
+  division,
+  mod,
+  increment,
+  decrement,
+  result
 let a = 10,
   b = 20,
   c = 30
+// 1 - Arithmetic Operators
 sum = a + b
 subtraction = a - b
 multiplication = a * b
@@ -27,4 +35,21 @@ console.log('Multiplication = ' + multiplication)
 console.log('Division = ' + division)
 console.log('Mod = ' + mod)
 console.log('Increment = ' + increment)
-// console.log('Decrement = ' + decrement)
+console.log('Decrement = ' + decrement)
+
+// 2 - Assignment Operators
+result = a
+result += a // result = result + a
+result -= a // result = result - a
+result *= a // result = result * a
+result /= a // result = result / a
+result %= a // result = result % a
+
+// 3 - Comparison Operators
+result = a == b
+result = a != b
+result = a === b // data type and value are comparised
+result = a > b
+result = a < b
+result = a >= b
+result = a <= b
