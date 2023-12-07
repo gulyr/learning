@@ -19,19 +19,28 @@
 // }
 
 // 3 - x, y, z sayılarının büyüklük karşılaştırmasını yapınız. (else if 'i araştırınız.)
-let x = 10,
-  y = 50,
-  z = 30
-if (x > y && x > z) {
-  console.log('x is maximum')
-} else if (y > x && y > z) {
-  console.log('y is maximum')
-} else if (z > x && z > y) {
-  console.log('z is maximum')
-} else {
-  console.log('Numbers are equal')
-}
+// let x = 10,
+//   y = 50,
+//   z = 30
+// if (x > y && x > z) {
+//   console.log('x is maximum')
+// } else if (y > x && y > z) {
+//   console.log('y is maximum')
+// } else if (z > x && z > y) {
+//   console.log('z is maximum')
+// } else {
+//   console.log('Numbers are equal')
+// }
+
 // 4 - 2 vize (40%) ve 1 final(60%) notuna göre hesaplanan ortalama için;
+let result1 = 50,
+  result2 = 60,
+  final = 50,
+  avarage
+avarage = ((result1 + result2) / 2) * 0.4 + final * 0.6
+console.log('Avarage = ' + avarage)
+
 // a - Eğer ortalama 50 ve üstündeyse geçti değilse kaldı yazsın.
-// b - Geçmek için ortalama 50 bile olsa final notu en az 50 olmalıdır.
-// c - Finalden 70 alındığında ortalama 50' nin altında olsa bile dersten geçilsin.
+if (avarage >= 50) {
+  console.log('Passed')
+}
