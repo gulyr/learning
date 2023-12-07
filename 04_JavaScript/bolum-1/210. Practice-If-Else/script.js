@@ -33,11 +33,10 @@
 // }
 
 // 4 - 2 vize (40%) ve 1 final(60%) notuna göre hesaplanan ortalama için;
-let result1 = 50,
-  result2 = 60,
-  final = 50,
-  avarage
-avarage = ((result1 + result2) / 2) * 0.4 + final * 0.6
+let result1 = 10,
+  result2 = 10,
+  final = 70
+let avarage = ((result1 + result2) / 2) * 0.4 + final * 0.6
 console.log('Avarage = ' + avarage)
 
 // a - Eğer ortalama 50 ve üstündeyse geçti değilse kaldı yazsın.
@@ -46,5 +45,9 @@ if (avarage >= 50) {
 }
 // b - Geçmek için ortalama 50 bile olsa final notu en az 50 olmalıdır.
 else if (avarage >= 50 && final >= 50) {
+  console.log('Passed')
+}
+// c - Finalden 70 alındığında ortalama 50-nin altında olsa bile dersten geçilsin.
+else if (final >= 70 || avarage >= 50) {
   console.log('Passed')
 }
