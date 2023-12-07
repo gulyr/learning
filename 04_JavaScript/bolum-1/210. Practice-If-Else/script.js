@@ -1,11 +1,23 @@
 // 1 - Bir sayının 10-50 arasında olup olmadığını kontrol ediniz.
-let number = 20
-if (number >= 10 && number <= 50) {
-  console.log(number + ' is from 10-50 range')
-} else {
-  console.log(number + ' is not from 10-50 range')
-}
+// let number = 20
+// if (number >= 10 && number <= 50) {
+//   console.log(number + ' is from 10-50 range')
+// } else {
+//   console.log(number + ' is not from 10-50 range')
+// }
+
 // 2 - Bir sayının pozitif tek sayı olup olmadığını kontrol ediniz.
+let number = -15
+if (number > 0 && number % 2 != 0) {
+  console.log(number + ' is positive odd number')
+} else if (number < 0 && number % 2 != 0) {
+  console.log(number + ' is negative odd number')
+} else if ((number > 0 || number < 0) && number % 2 == 0) {
+  console.log(number + ' is not odd number')
+} else {
+  console.log(number + ' == 0')
+}
+
 // 3 - x, y, z sayılarının büyüklük karşılaştırmasını yapınız. (else if 'i araştırınız.)
 // 4 - 2 vize (40%) ve 1 final(60%) notuna göre hesaplanan ortalama için;
 // a - Eğer ortalama 50 ve üstündeyse geçti değilse kaldı yazsın.
