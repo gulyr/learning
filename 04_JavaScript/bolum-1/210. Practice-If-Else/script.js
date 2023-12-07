@@ -1,4 +1,10 @@
 // 1 - Bir sayının 10-50 arasında olup olmadığını kontrol ediniz.
+let number = 20
+if (number >= 10 && number <= 50) {
+  console.log(number + ' is from 10-50 range')
+} else {
+  console.log(number + ' is not from 10-50 range')
+}
 // 2 - Bir sayının pozitif tek sayı olup olmadığını kontrol ediniz.
 // 3 - x, y, z sayılarının büyüklük karşılaştırmasını yapınız. (else if 'i araştırınız.)
 // 4 - 2 vize (40%) ve 1 final(60%) notuna göre hesaplanan ortalama için;
