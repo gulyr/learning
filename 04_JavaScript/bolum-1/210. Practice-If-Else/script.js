@@ -44,3 +44,7 @@ console.log('Avarage = ' + avarage)
 if (avarage >= 50) {
   console.log('Passed')
 }
+// b - Geçmek için ortalama 50 bile olsa final notu en az 50 olmalıdır.
+else if (avarage >= 50 && final >= 50) {
+  console.log('Passed')
+}
