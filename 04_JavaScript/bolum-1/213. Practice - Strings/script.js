@@ -2,7 +2,7 @@ let url = 'https://www.sadikturan.com'
 let kursAdi = 'Komple Web Geliştirme Kursu'
 
 // 1- url kaç karakterlidir?
-
+console.log(url.length)
 // 2- kursAdi kaç kelimeden oluşmaktadır?
 
 // 3- url https ile mi başlıyor?
