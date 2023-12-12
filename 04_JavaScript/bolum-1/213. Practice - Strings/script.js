@@ -5,6 +5,7 @@ let kursAdi = 'Komple Web Geliştirme Kursu'
 // console.log(url.length)
 
 // 2- kursAdi kaç kelimeden oluşmaktadır?
+console.log(kursAdi.split(' ').length)
 
 // 3- url https ile mi başlıyor?
 // console.log(url.startsWith('https'))
@@ -14,4 +15,4 @@ let kursAdi = 'Komple Web Geliştirme Kursu'
 
 // 5- url ve kursAdi değişkenlerini kullanarak aşağıdaki string bilgiyi oluşturunuz.
 // https://www.sadikturan.com/komple-web-gelistirme-kursu
-console.log(url.concat('/', kursAdi.toLowerCase().replaceAll(' ', '-')))
+// console.log(url.concat('/', kursAdi.toLowerCase().replaceAll(' ', '-')))
