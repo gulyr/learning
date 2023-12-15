@@ -20,9 +20,13 @@ console.log(`result2 = ${result2}`)
 console.log(fruits)
 
 // 6- Dizinin son 2 elemanını siliniz.
+let result3 = fruits.splice(fruits.length - 2, 2)
+console.log(`result3 = ${result3}`)
+console.log(fruits)
+
 // 7- Aşağıdaki bilgileri dizi içerisinde saklayınız ve her öğrencinin yaşını ve not ortalamasını hesaplayınız.
 /*
-        Öğrenci 1: Yiğit Bilgi 2010 (70,60,80)
-        Öğrenci 2: Ada Bilgi 2012   (80,80,90)
-        Öğrenci 3: Ahmet  2009 (60,60,70)
-       */
+                Öğrenci 1: Yiğit Bilgi 2010 (70,60,80)
+                Öğrenci 2: Ada Bilgi 2012   (80,80,90)
+                Öğrenci 3: Ahmet  2009 (60,60,70)
+               */
