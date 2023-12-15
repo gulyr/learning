@@ -26,7 +26,20 @@ console.log(fruits)
 
 // 7- Aşağıdaki bilgileri dizi içerisinde saklayınız ve her öğrencinin yaşını ve not ortalamasını hesaplayınız.
 /*
-                Öğrenci 1: Yiğit Bilgi 2010 (70,60,80)
-                Öğrenci 2: Ada Bilgi 2012   (80,80,90)
-                Öğrenci 3: Ahmet  2009 (60,60,70)
-               */
+    Öğrenci 1: Yiğit Bilgi 2010 (70,60,80)
+    Öğrenci 2: Ada Bilgi 2012   (80,80,90)
+    Öğrenci 3: Ahmet Turan 2009 (60,60,70)
+*/
+let student1 = ['Yiğit', 'Bilgi', 2010, [70, 60, 80]]
+let student2 = ['Ada', 'Bilgi', 2012, [80, 80, 90]]
+let student3 = ['Ahmet', 'Turan', 2009, [60, 60, 70]]
+let students = [student1, student2, student3]
+console.log(`Students: ${students}`)
+
+// Her öğrencinin yaşı
+let age_student1 = new Date().getFullYear() - student1[2]
+let age_student2 = new Date().getFullYear() - student2[2]
+let age_student3 = new Date().getFullYear() - student3[2]
+console.log(
+  `age_student1: ${age_student1}; age_student2: ${age_student2}; age_student3: ${age_student3}`
+)
