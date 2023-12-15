@@ -1,4 +1,6 @@
 // 1- "Elma,Armut,Muz,Çilek" elemanlarına sahip bir dizi oluşturunuz.
+let fruits = ['Elma', 'Armut', 'Muz', 'Cilek']
+
 // 2- Dizi kaç elemanlıdır?
 // 3- Dizinin ilk ve son elemanı nedir?
 // 4- Elma dizinin bir elemanımıdır?
