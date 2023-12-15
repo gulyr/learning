@@ -3,7 +3,7 @@ let fruits = ['Elma', 'Armut', 'Muz', 'Cilek']
 
 // 2- Dizi kaç elemanlıdır?
 let result1 = fruits.length
-console.log(result1)
+console.log(`result1 = ${result1}`)
 
 // 3- Dizinin ilk ve son elemanı nedir?
 console.log(
@@ -14,6 +14,11 @@ console.log(
 console.log(fruits.includes('Pomegranate'))
 
 // 5- Kiraz meyvesini listenin sonuna ekleyiniz.
+// fruits[fruits.length] = 'Kiraz' // way:1
+let result2 = fruits.push('Kiraz') // way:2
+console.log(`result2 = ${result2}`)
+console.log(fruits)
+
 // 6- Dizinin son 2 elemanını siliniz.
 // 7- Aşağıdaki bilgileri dizi içerisinde saklayınız ve her öğrencinin yaşını ve not ortalamasını hesaplayınız.
 /*
