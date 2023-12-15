@@ -6,6 +6,10 @@ let result1 = fruits.length
 console.log(result1)
 
 // 3- Dizinin ilk ve son elemanı nedir?
+console.log(
+  `First element - ${fruits[0]}, Last element - ${fruits[fruits.length - 1]}`
+)
+
 // 4- Elma dizinin bir elemanımıdır?
 // 5- Kiraz meyvesini listenin sonuna ekleyiniz.
 // 6- Dizinin son 2 elemanını siliniz.
