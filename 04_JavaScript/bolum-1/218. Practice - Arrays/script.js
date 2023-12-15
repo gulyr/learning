@@ -11,6 +11,8 @@ console.log(
 )
 
 // 4- Elma dizinin bir elemanımıdır?
+console.log(fruits.includes('Pomegranate'))
+
 // 5- Kiraz meyvesini listenin sonuna ekleyiniz.
 // 6- Dizinin son 2 elemanını siliniz.
 // 7- Aşağıdaki bilgileri dizi içerisinde saklayınız ve her öğrencinin yaşını ve not ortalamasını hesaplayınız.
