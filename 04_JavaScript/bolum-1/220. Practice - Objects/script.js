@@ -98,7 +98,7 @@ order1Fee =
     order1.purchasedProducts[1].productPrice) *
   1.18
 order2Fee = order2.purchasedProducts[0].productPrice * 1.18
-// totalFee = order1Fee + order2Fee
+totalFee = order1Fee + order2Fee
 console.log(`order-1 : ${order1Fee}`)
 console.log(`order-2 : ${order2Fee}`)
-// console.log(`sum: ${totalFee}`)
+console.log(`sum: ${totalFee}`)
