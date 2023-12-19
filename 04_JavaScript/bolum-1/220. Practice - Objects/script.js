@@ -42,7 +42,7 @@
 //     firma id: 34
 //     firma adı: Apple Türkiye
 
-let result
+let order1Fee, order2Fee, totalFee
 let order1 = {
   orderID: 101,
   orderDate: new Date('31.12.2022'),
@@ -76,12 +76,14 @@ let order2 = {
   orderDate: new Date('30.12.2022'),
   paymentMethod: 'card',
   cargoAddress: 'Yahya kaptan mah. Kocaeli İzmit',
-  purchasedProducts: {
-    productID: 6,
-    productHeader: 'IPhone 13 Pro Max',
-    productUrl: 'http://abc.com/iphone-13-pro-max',
-    productPrice: 25000,
-  },
+  purchasedProducts: [
+    {
+      productID: 6,
+      productHeader: 'IPhone 13 Pro Max',
+      productUrl: 'http://abc.com/iphone-13-pro-max',
+      productPrice: 25000,
+    },
+  ],
   customer: {
     customerID: 12,
   },
@@ -90,3 +92,13 @@ let order2 = {
     companyName: 'Apple Türkiye',
   },
 }
+
+order1Fee =
+  (order1.purchasedProducts[0].productPrice +
+    order1.purchasedProducts[1].productPrice) *
+  1.18
+order2Fee = order2.purchasedProducts[0].productPrice * 1.18
+totalFee = order1Fee + order2Fee
+console.log(`order-1 : ${order1Fee}`)
+console.log(`order-2 : ${order2Fee}`)
+console.log(`sum: ${totalFee}`)
