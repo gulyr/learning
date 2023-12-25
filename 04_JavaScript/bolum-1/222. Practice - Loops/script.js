@@ -14,13 +14,13 @@ let sayilar = [1, 5, 7, 15, 3, 25, 12, 24]
 // }
 
 // 3- sayilar listesindeki çift sayıların toplamını bulunuz.
-let sum = 0
-for (const sayi of sayilar) {
-  if (sayi % 2 == 0) {
-    sum += sayi
-  }
-}
-console.log(`Task-3 result: ${sum}`)
+// let sum = 0
+// for (const sayi of sayilar) {
+//   if (sayi % 2 == 0) {
+//     sum += sayi
+//   }
+// }
+// console.log(`Task-3 result: ${sum}`)
 
 let urunler = [
   'iphone 12',
@@ -31,6 +31,11 @@ let urunler = [
 ]
 
 // 4- urunler listesindeki tüm ürünleri büyük harf ile yazdırınız.
+console.log('Task-4 result:')
+for (const urun of urunler) {
+  console.log(`${urun} - ${urun.toUpperCase()}`)
+}
+
 // 5- urunler listesinde samsung geçen kaç ürün vardır?
 let ogrenciler = [
   { ad: 'yiğit', soyad: 'bilgi', notlar: [60, 70, 60] },
