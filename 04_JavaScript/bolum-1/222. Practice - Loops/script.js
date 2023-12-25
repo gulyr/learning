@@ -2,10 +2,17 @@
 let sayilar = [1, 5, 7, 15, 3, 25, 12, 24]
 
 // 1- sayilar listesindeki her bir elemanın karesini yazdırınız.
-for (const sayi of sayilar) {
-  console.log(`Example-1 result: ${Math.pow(sayi, 2)}`)
-}
+// for (const sayi of sayilar) {
+//   console.log(`Task-1 result: ${Math.pow(sayi, 2)}`)
+// }
+
 // 2- sayilar listesindeki hangi sayılar 5' in katıdır?
+for (const sayi of sayilar) {
+  if (sayi % 5 == 0) {
+    console.log(`Task-2 result: ${sayi}`)
+  }
+}
+
 // 3- sayilar listesindeki çift sayıların toplamını bulunuz.
 let urunler = [
   'iphone 12',
