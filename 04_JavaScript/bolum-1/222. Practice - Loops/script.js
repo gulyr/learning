@@ -7,13 +7,21 @@ let sayilar = [1, 5, 7, 15, 3, 25, 12, 24]
 // }
 
 // 2- sayilar listesindeki hangi sayılar 5' in katıdır?
-for (const sayi of sayilar) {
-  if (sayi % 5 == 0) {
-    console.log(`Task-2 result: ${sayi}`)
-  }
-}
+// for (const sayi of sayilar) {
+//   if (sayi % 5 == 0) {
+//     console.log(`Task-2 result: ${sayi}`)
+//   }
+// }
 
 // 3- sayilar listesindeki çift sayıların toplamını bulunuz.
+let sum = 0
+for (const sayi of sayilar) {
+  if (sayi % 2 == 0) {
+    sum += sayi
+  }
+}
+console.log(`Task-3 result: ${sum}`)
+
 let urunler = [
   'iphone 12',
   'samsung s22',
