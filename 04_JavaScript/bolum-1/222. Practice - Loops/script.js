@@ -54,37 +54,37 @@ let ogrenciler = [
 
 // ogrenciler listesindeki her öğrencinin not ortalaması ve başarı durumlarını yazdırınız.
 // -- way-1 --
-console.log(`Task-6 result (way-1):`)
-let average
-for (const key in ogrenciler) {
-  average =
-    (ogrenciler[key].notlar[0] +
-      ogrenciler[key].notlar[1] +
-      ogrenciler[key].notlar[2]) /
-    3
-  if (average >= 50) {
-    console.log(`Ortalama: ${average.toFixed(2)} => Gecti`)
-  } else {
-    console.log(`Ortalama: ${average.toFixed(2)} => Kaldi`)
-  }
-}
-
-// -- way-2 --
-// console.log(`Task-6 result (way-2):`)
-// for (const ogrenci of ogrenciler) {
-//   let sum = 0,
-//     average = 0,
-//     sayi = 0
-//   for (const not of ogrenci.notlar) {
-//     sum += not
-//     sayi++
-//   }
-//   average = sum / sayi
+// console.log(`Task-6 result (way-1):`)
+// let average
+// for (const key in ogrenciler) {
+//   average =
+//     (ogrenciler[key].notlar[0] +
+//       ogrenciler[key].notlar[1] +
+//       ogrenciler[key].notlar[2]) /
+//     3
 //   if (average >= 50) {
 //     console.log(`Ortalama: ${average.toFixed(2)} => Gecti`)
 //   } else {
 //     console.log(`Ortalama: ${average.toFixed(2)} => Kaldi`)
 //   }
 // }
+
+// -- way-2 --
+console.log(`Task-6 result (way-2):`)
+for (const ogrenci of ogrenciler) {
+  let sum = 0,
+    average = 0,
+    sayi = 0
+  for (const not of ogrenci.notlar) {
+    sum += not
+    sayi++
+  }
+  average = sum / sayi
+  if (average >= 50) {
+    console.log(`Ortalama: ${average.toFixed(2)} => Gecti`)
+  } else {
+    console.log(`Ortalama: ${average.toFixed(2)} => Kaldi`)
+  }
+}
 
 // tüm öğrencilerin not ortalaması kaçtır?
