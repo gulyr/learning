@@ -31,12 +31,21 @@ let urunler = [
 ]
 
 // 4- urunler listesindeki tüm ürünleri büyük harf ile yazdırınız.
-console.log('Task-4 result:')
-for (const urun of urunler) {
-  console.log(`${urun} - ${urun.toUpperCase()}`)
-}
+// console.log('Task-4 result:')
+// for (const urun of urunler) {
+//   console.log(`${urun} - ${urun.toUpperCase()}`)
+// }
 
 // 5- urunler listesinde samsung geçen kaç ürün vardır?
+let sayi = 0
+for (const urun of urunler) {
+  if (urun.includes('samsung')) {
+    console.log(urun)
+    sayi++
+  }
+}
+console.log(`Task-5 result: ${sayi}`)
+
 let ogrenciler = [
   { ad: 'yiğit', soyad: 'bilgi', notlar: [60, 70, 60] },
   { ad: 'ada', soyad: 'bilgi', notlar: [80, 70, 80] },
