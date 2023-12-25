@@ -1,3 +1,4 @@
+// Do Tasks
 let sayilar = [1, 5, 7, 15, 3, 25, 12, 24]
 
 // 1- sayilar listesindeki her bir elemanın karesini yazdırınız.
