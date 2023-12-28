@@ -4,6 +4,7 @@ function writeword(word, count) {
     console.log(word)
   }
 }
+console.log('Task-1 result:')
 writeword('Aaaa', 5)
 
 // 2- Dikdörtgenin alan ve çevresini hesaplayan fonksiyonu yazınız.
